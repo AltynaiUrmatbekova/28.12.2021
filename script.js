@@ -32,8 +32,20 @@ var bottleVol = calculateCylinderVolume(3, 10);
 // console.log(smallGlassVol);
 // console.log(bottleVol);
 
-document.write("<h1>Kyrgyzstan</h1>");
-document.write("<p>Hello world!</p>");
-document.write("Hello world!");
-document.write("Bye world!<br>");
-document.write("Bye world!<br>");
+// document.write("<h1>Kyrgyzstan</h1>");
+// document.write("<p>Hello world!</p>");
+// document.write("Hello world!");
+// document.write("Bye world!<br>");
+// document.write("Bye world!<br>");
+
+// function countdown() {
+//     for (let i=0; i<10; i++) {
+//         document.write(i + "<br>");
+//     }
+// }
+
+function countdown() {
+    for (let i=10; i>10; i--) {
+        document.write(i + "<br>");
+    }
+}
